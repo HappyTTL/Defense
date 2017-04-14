@@ -1,17 +1,16 @@
 \beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Motivation}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Why Correlated Shadow Fading}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{Shadow Fading Correlation Models}{6}{0}{1}
-\beamer@sectionintoc {2}{Cooperative Communication to Mitigate Correlated Shadow Fading for a Single-Cell Model}{7}{0}{2}
+\beamer@sectionintoc {2}{Cooperative Communication for a Single-Cell Model}{7}{0}{2}
 \beamer@subsectionintoc {2}{1}{Angular and Distance Correlation Model}{8}{0}{2}
-\beamer@subsectionintoc {2}{2}{Correlated Outage Fields}{9}{0}{2}
-\beamer@subsectionintoc {2}{3}{How Cooperative Communication Mitigate Shadow Fading}{10}{0}{2}
-\beamer@sectionintoc {3}{Single-Cell System Performance Analysis under Exponential Correlated Shadow Fading}{17}{0}{3}
-\beamer@subsectionintoc {3}{1}{Why Exponential Correlation Model}{18}{0}{3}
-\beamer@subsectionintoc {3}{2}{First-Order Markov Chain Model}{19}{0}{3}
-\beamer@subsectionintoc {3}{3}{Analysis of Outage Behavior}{24}{0}{3}
-\beamer@sectionintoc {4}{Multi-Cell System Performance Analysis under Exponential Correlated Shadow Fading}{26}{0}{4}
+\beamer@subsectionintoc {2}{2}{How Cooperative Communication Mitigate Shadow Fading}{10}{0}{2}
+\beamer@sectionintoc {3}{Single-Cell System Performance Analysis}{17}{0}{3}
+\beamer@subsectionintoc {3}{1}{First-Order Markov Chain Model}{19}{0}{3}
+\beamer@subsectionintoc {3}{2}{Analysis of Outage Behavior}{24}{0}{3}
+\beamer@sectionintoc {4}{Multi-Cell System Performance Analysis}{26}{0}{4}
+\beamer@subsectionintoc {4}{1}{Grid Model vs. Random Model}{27}{0}{4}
+\beamer@subsectionintoc {4}{2}{Outage Probability and Outage Durations}{29}{0}{4}
 \beamer@sectionintoc {5}{Transport Layer Protocols for Next Generation Networks}{33}{0}{5}
-\beamer@subsectionintoc {5}{1}{Motivations}{34}{0}{5}
-\beamer@subsectionintoc {5}{2}{Remy and Explicit Congestion Notification (ECN)}{37}{0}{5}
-\beamer@subsectionintoc {5}{3}{Data-Driven End-User Congestion Prediction Algorithm}{39}{0}{5}
+\beamer@subsectionintoc {5}{1}{Motivation}{34}{0}{5}
+\beamer@subsectionintoc {5}{2}{Data-Driven End-User Congestion Prediction Algorithm}{39}{0}{5}
+\beamer@sectionintoc {6}{Conclusions and Future Work}{44}{0}{6}

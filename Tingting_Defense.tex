@@ -92,7 +92,7 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Thesis Defense]{Cellular System Performance Analysis under Correlated Shadow Fading} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Thesis Defense]{Cellular System Performance Analysis Under Correlated Shadow Fading} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{Tingting Lu} % Your name
 \institute[NYU] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
@@ -102,10 +102,10 @@ Tandon School of Engineering\\
 \medskip
 \textit{tl984@nyu.edu} % Your email address
 }
-\date{\today} % Date, can be changed to a custom date
+\date{April 17th, 2017} % Date, can be changed to a custom date
 
 \begin{document}
-
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
 \begin{frame}
 \titlepage % Print the title page as the first slide
 \end{frame}
@@ -133,9 +133,9 @@ In general, fading can be divided into two categories: large-scale fading and sm
 \end{itemize}
 Next Generation Cellular Networks:
 \begin{itemize}
-\item Millimeter wave (mmWave) frequency spectrum, between 30 and 300 GHz, will be used to addressing the bandwidth needs.
+\item Millimeter wave (mmWave) frequency spectrum, between 30 and 300 GHz, will most likely be used to address the bandwidth needs.
 \item The small wavelengths of mmWave will result in high path loss and sensitivity to obstructions which cause large-scale shadow fading.
-\item Shadow fading can lead to significant received power loss for a wide area.
+\item Shadow fading can lead to significant received power loss over a wide area.
 \end{itemize}
 %\begin{figure}
 %\includegraphics[width=8cm]{fading.png}
@@ -161,7 +161,7 @@ A mobile user moving behind a row of tall buildings.
 \end{frame}
 %
 %
-\subsection{Shadow Fading Correlation Models}
+%\subsection{Shadow Fading Correlation Models}
 \begin{frame}
 \frametitle{Shadow Fading Correlation Models}
 Specific Correlation Models:
@@ -171,18 +171,18 @@ Specific Correlation Models:
 \item Angle-Only Models
 \item Separable Models: Angle-Distance Ratio and Angle-Absolute Distance
 \end{itemize}
-Auto-correlation and Cross-Correlation:
+Autocorrelation and Cross-Correlation:
 \begin{figure}
 \includegraphics[width=8cm]{AutoandCross.png}
 \end{figure}
 \end{frame}
 %
 
-\section{Cooperative Communication to Mitigate Correlated Shadow Fading for a Single-Cell Model}
+\section{Cooperative Communication for a Single-Cell Model}
 \subsection{Angular and Distance Correlation Model}
 \begin{frame}
 \frametitle{Angular and Distance Correlation Model}
-Exponential correlation model is distance related. We consider a new correlation model involves both angular and distance as follows:
+We consider a correlation model involves both angular and distance as follows:
 \begin{equation}
 \theta = |\angle\vec{r_{i}}-\angle\vec{r_{j}}|\in [0^{\circ},180^{\circ}],
 \end{equation}
@@ -193,11 +193,11 @@ R=|10\log_{10}r_{i}/r_{j}|=\frac{10}{\ln 10}|\ln r_{i}-\ln r_{j}|,
 h(\vec{r_{i}},\vec{r_{j}})=max\{1-\theta/\theta_{0},0\}\cdot max\{1-R/R_{0},0\}.
 \end{equation}
 \begin{figure}
-\includegraphics[width=4cm, angle=270]{shadowingfield_V3.eps}
+\includegraphics[width=3cm, angle=270]{shadowingfield_V3.eps}
 \caption{Correlated Shadowing Fields for Increasing Resolutions}
 \end{figure}
 \end{frame}
-\subsection{Correlated Outage Fields}
+%\subsection{Correlated Outage Fields}
 \begin{frame}
 \frametitle{Correlated Outage Fields}
 \begin{figure}
@@ -424,9 +424,9 @@ f_{outage}=\frac{\text{Total Number of Outage Points}}{\text{Total Number of Sim
 %\end{frame}
 %
 %
-\section{Single-Cell System Performance Analysis under Exponential Correlated Shadow Fading}
+\section{Single-Cell System Performance Analysis}
 
-\subsection{Why Exponential Correlation Model}
+%\subsection{Why Exponential Correlation Model}
 \begin{frame}
 \frametitle{Exponential Correlation Model}
 Exponential correlation model is an analytical model proposed by Gudmundson based on empirical measurements of $900MHz$ frequency.
@@ -603,7 +603,8 @@ SNR Requirement & $10dB$\\
 \end{figure}
 \end{frame}
 %
-\section{Multi-Cell System Performance Analysis under Exponential Correlated Shadow Fading}
+\section{Multi-Cell System Performance Analysis}
+\subsection{Grid Model vs. Random Model}
 \begin{frame}
 \frametitle{Multi-Cell System Model}
 \begin{itemize}
@@ -614,7 +615,6 @@ SNR Requirement & $10dB$\\
  \centering
  \includegraphics[width=10cm]{systemLayout.eps}
  \caption{Random model and Grid model with $\lambda = 9$.}
- \label{4:RandomLayout}
  \end{figure}
 \end{frame}
 \begin{frame}
@@ -637,6 +637,7 @@ SNR Requirement & $10dB$\\
  \end{columns}
 \end{frame}
 \begin{frame}
+\subsection{Outage Probability and Outage Durations}
 \frametitle{Outage Probability Simulation}
 \begin{table}
  \centering
@@ -669,14 +670,14 @@ SNR Requirement & $10dB$\\
  \begin{figure}
  \centering
  \includegraphics[width=6cm]{NBMax1000OutageProbThresh-5iid.eps}
- \caption{Outage probability given $-5dB$ SINR threshold}
+ \caption{Outage probability given $-5dB$ SINR threshold (MS connecting to the Nearest BS)}
  \label{fig: outprob1}
  \end{figure}
  \column{.5\textwidth}
  \begin{figure}
  \centering
  \includegraphics[width=6cm]{MaxMax1000OutageProbThresh-5iid.eps}
- \caption{Outage probability given $-5dB$ SINR threshold}
+ \caption{Outage probability given $-5dB$ SINR threshold (MS connecting to the Strongest BS)}
  \label{fig: outprobs2}
  \end{figure}
   \end{columns}
@@ -702,7 +703,7 @@ SNR Requirement & $10dB$\\
  \end{columns}
  \end{frame}
  \begin{frame}
- \frametitle(Outage Duration Analysis (Cont'd))
+ \frametitle{Outage Duration Analysis Cont'd}
  \begin{columns}[c]
  \column{.5\textwidth}
  \begin{figure}
@@ -721,20 +722,21 @@ SNR Requirement & $10dB$\\
  \end{columns}
 \end{frame}
 \section{Transport Layer Protocols for Next Generation Networks}
-\subsection{Motivations}
+\subsection{Motivation}
 \begin{frame}
+\frametitle{Motivation}
 MmWave Channel:
 \begin{itemize} 
 \item High capacity and low delay.
 \item Sensitive to obstructions, which result in frequent capacity fluctuations.
-\item Switch between Line-of-Sight (LOS) state and None-Line-of-Sight (NLOS) state periodically.
+\item Switch between line-of-sight (LOS) state and none-line-of-sight (NLOS) state periodically.
 \end{itemize}
-\begin{block}{Legacy TPC}
+\begin{block}{Legacy TCP}
 Legacy TCP congestion control protocols might not work well with mmWave channel due to the slow congestion detection and conservative loss recovery.
 \end{block}
 \end{frame}
 \begin{frame}
-\frametitle{Test Legacy TCP on Emulated MmWave Channel}
+\frametitle{Test Legacy TCP on an Emulated MmWave Channel}
 \begin{figure}
 \centering
 \includegraphics[width=10cm]{1.eps}
@@ -749,6 +751,7 @@ Legacy TCP congestion control protocols might not work well with mmWave channel 
 %\label{2nd}
 %\end{figure}
 \begin{frame}
+\frametitle{Test Legacy TCP on an Emulated MmWave Channel Cont'd}
 \begin{figure}
 \centering
 \includegraphics[width=10cm]{3.eps}
@@ -763,7 +766,7 @@ Legacy TCP congestion control protocols might not work well with mmWave channel 
 %\end{figure}
 
 \end{frame}
-\subsection{Remy and Explicit Congestion Notification (ECN)}
+%\subsection{Remy and Explicit Congestion Notification (ECN)}
 \begin{frame}
 \frametitle{Remy}
 Remy is a congestion-control scheme based on prior knowledge of the network and the traffic model. It is the first computer generated congestion control protocol. A RemyCC tracks only three state variables of the end-user:
@@ -772,7 +775,7 @@ Remy is a congestion-control scheme based on prior knowledge of the network and 
 \item An EWMA of the time between TCP sender timestamps reflected in those ACKs (send\_ewma).
 \item The ratio between the most recent Round Trip Time (RTT) and the minimum RTT during the current connection (rtt\_ratio).
 \end{itemize}
-The algorithm does not require the support from any intermediate network devices. The end-user can adjust its sending speed following the pre-generated algorithm based on the above mentioned data.
+This algorithm does not require the support from any intermediate network devices. The end-user can adjust its sending speed following the pre-generated algorithm based on the above data.
 \end{frame}
 
 \begin{frame}
@@ -780,14 +783,15 @@ The algorithm does not require the support from any intermediate network devices
 With the addition of active queue management and ECN to the network infrastructure, routers are capable of detecting congestion before queue overflows. 
 \begin{itemize}
 \item An additional Congestion Experienced (CE) byte is added to the IP header of the packet to support this function.
-\item Routers running RED queue management can mark the CE code point with a certain probability when the average queue length satisfy a certain criteria.
+\item Routers running RED queue management can mark the CE code point with a certain probability when the average queue length satisfies a certain criteria.
 \item The packet with marked CE will be sent to the receiver.
-\item After receiving the packet, the receiver will piggyback an ACK with marked CE to notify the sender that there is congestion in the router.
+\item After receiving the packet, the receiver will piggyback an ACK with marked CE to notify the sender that congestion occurs in the router.
 \end{itemize}   
-No extra traffic will be generated to overload the network. The sender will reduce the congestion window to avoid queue overflow and packet loss. Using ECN to detect congestion requires the participation of routers and waiting for receiver's feedback.
+No extra traffic will be generated to overload the network. The sender will reduce the congestion window to avoid queue overflow and packet loss. Using ECN to detect congestion requires the participation of routers and receiver's feedback.
 \end{frame}
 \subsection{Data-Driven End-User Congestion Prediction Algorithm}
 \begin{frame}
+\frametitle{End-user Data Collection}
 \begin{figure}
 \centering
 \includegraphics[width=6cm]{6layout.pdf}
@@ -795,26 +799,27 @@ No extra traffic will be generated to overload the network. The sender will redu
 \label{layout}
 \end{figure}
 \begin{itemize}
-\item $6$ TCP traffic senders and $6$ receivers.
+\item $6$ traffic senders and $6$ receivers.
 \item The sender $s_{i}$ sends data to receiver $r_{i}$ through the bottleneck link $Q1\to Q2$. 
-\item Both $Q1$ and $Q2$ maintain a DropTail Queue. 
+\item Both $Q1$ and $Q2$ maintain DropTail Queues. 
 \item The queue limit is set to be the bandwidth-delay product to ensure the full utilization of the link capacity.
 \end{itemize}
 \end{frame}
 \begin{frame}
-\frametitle{Data Collection}
+\frametitle{End-user Data Collection Cont'd}
 Without losing of generality, we simulated several different traffic scenarios to collect end-user data. We analyze the following scenarios: 
 \begin{itemize}
     \item Scenario 1: All traffic sources are running TCP NewReno with stationary bottleneck link capacity.
     \item Scenario 2: All traffic sources are running TCP Cubic with stationary bottleneck link capacity.
     % \item Scenario 3: One half traffic sources are running TCP NewReno while the other half running TCP Cubic with stationary bottle link capacity.
     \item Scenario 3: One-half of the traffic sources is running TCP NewReno while the other half is running UDP with stationary bottleneck link capacity.
-    \item Scenario 4: One-half of traffic sources is running TCP Cubic while the other half is running UDP with stationary bottleneck link capacity.
+    \item Scenario 4: One-half of the traffic sources is running TCP Cubic while the other half is running UDP with stationary bottleneck link capacity.
     \item Scenario 5: Repeat scenario 1 and 2 for a periodically On-Off bottleneck link.
 \end{itemize}
 \end{frame}
 
 \begin{frame}
+\frametitle{Feature Set}
 \begin{table}
 \begin{center}
 \caption {Simulation Parameters} \label{tab:simuPara}
@@ -844,18 +849,19 @@ Without losing of generality, we simulated several different traffic scenarios t
 \end{frame}
 
 \begin{frame}
+\frametitle{Receiver Operating Characteristic (ROC) Curves}
  \begin{columns}[c]
  \column{.5\textwidth}
 \begin{figure}
 \centering
-\includegraphics[width=6cm]{LRRoc.png}
+\includegraphics[width=5cm]{LRRoc.png}
 \caption{ROC curve of the Logistic Regression classifier}
 \label{LRRoc}
 \end{figure}
  \column{.5\textwidth}
  \begin{figure}
-     \includegraphics[width=6cm]{DecisionTreeRoc.png}
-\caption{max\_depth = 5, min\_samples\_leaf = 10000}
+     \includegraphics[width=5cm]{DecisionTreeRoc.png}
+\caption{ROC curve of the Decision Tree classifier (max\_depth = 5, min\_samples\_leaf = 10000)}
 \label{DecisionTreeRoc}
 
    \end{figure}
@@ -866,6 +872,7 @@ Without losing of generality, we simulated several different traffic scenarios t
 \end{itemize}
 \end{frame}
 \begin{frame}
+\frametitle{Receiver Operating Characteristic (ROC) Curves}
 \begin{table}
 \begin{center}
 \caption {Simulation Parameters} \label{tab:varyRTT}
@@ -883,13 +890,13 @@ Without losing of generality, we simulated several different traffic scenarios t
  \begin{columns}[c]
  \column{.5\textwidth}
 \begin{figure}
-\includegraphics[width=5cm]{LRRocDiffProp.png}
+\includegraphics[width=4cm]{LRRocDiffProp.png}
 \caption{ROC curve of Logistic Regression classifier with different propagation delays}
 \label{LRROCDiff}
 \end{figure}
  \column{.5\textwidth}
 \begin{figure}
-\includegraphics[width=5cm]{DTRocDiffProp.png}
+\includegraphics[width=4cm]{DTRocDiffProp.png}
 \caption{ROC curve of Decision Tree classifier with different propagation delays}
 \label{DTROCDiff}
 \end{figure}
@@ -897,15 +904,25 @@ Without losing of generality, we simulated several different traffic scenarios t
 
 
 \end{frame}
-
+\section{Conclusions and Future Work}
 \begin{frame}
 \frametitle{Conclusions}
+Conclusions:
 \begin{itemize}
 
-\item Cooperative communication can be used to mitigate correlated shadow fading. Reduce outage frequency and probability of long-last outage durations. 
-\item A first-order Markov Chain Model can be constructed to study the system performance under exponential correlated shadow fading.
-\item The performance of a multi-cell system is investigated from the outage probability and outage durations. Connecting to the BS providing highest SINR or increasing the BS density can improve system performance.
-\item A data-driven end-user congestion detection algorithm is developed for networks that are stable.
+\item Cooperative communication can be used to mitigate correlated shadow fading, reduce outage frequency and probability of long-lasting outage durations. 
+\item A first-order Markov Chain Model can be constructed to analyze the system performance under exponential correlated shadow fading.
+\item The performance of a multi-cell system is investigated from the outage probability and outage durations. Connecting to the BS providing highest SINR or increasing the BS density can improve the system performance.
+\item A data-driven end-user congestion detection algorithm is developed for stable networks.
+\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Future Work}
+Future Work:
+\begin{itemize}
+\item Apply our algorithms to mitigate correlated shadow fading to the standard mmWave channel.
+\item Use the proposed fast end-user congestion prediction algorithm to design fast reacting TCP congestion control algorithms for stable networks.
+\item Extract new features and apply powerful machine learning algorithms to design fast reacting TCP congestion control algorithms for unstable networks.
 \end{itemize}
 \end{frame}
 \begin{frame}

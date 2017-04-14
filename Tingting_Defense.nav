@@ -13,112 +13,117 @@
 \headcommand {\beamer@framepages {4}{4}}
 \headcommand {\slideentry {1}{1}{2}{5/5}{Why Correlated Shadow Fading}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{Shadow Fading Correlation Models}}\headcommand {\beamer@subsectionpages {4}{5}}
-\headcommand {\slideentry {1}{2}{1}{6/6}{Shadow Fading Correlation Models}{0}}
+\headcommand {\slideentry {1}{1}{3}{6/6}{Why Correlated Shadow Fading}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\sectionentry {2}{Cooperative Communication to Mitigate Correlated Shadow Fading for a Single-Cell Model}{7}{Cooperative Communication to Mitigate Correlated Shadow Fading for a Single-Cell Model}{0}}
+\headcommand {\sectionentry {2}{Cooperative Communication for a Single-Cell Model}{7}{Cooperative Communication for a Single-Cell Model}{0}}
 \headcommand {\beamer@sectionpages {3}{6}}
-\headcommand {\beamer@subsectionpages {6}{6}}
+\headcommand {\beamer@subsectionpages {4}{6}}
 \headcommand {\slideentry {2}{0}{1}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
 \headcommand {\beamer@subsectionentry {0}{2}{1}{8}{Angular and Distance Correlation Model}}\headcommand {\beamer@subsectionpages {7}{7}}
 \headcommand {\slideentry {2}{1}{1}{8/8}{Angular and Distance Correlation Model}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{9}{Correlated Outage Fields}}\headcommand {\beamer@subsectionpages {8}{8}}
-\headcommand {\slideentry {2}{2}{1}{9/9}{Correlated Outage Fields}{0}}
+\headcommand {\slideentry {2}{1}{2}{9/9}{Angular and Distance Correlation Model}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{10}{How Cooperative Communication Mitigate Shadow Fading}}\headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\slideentry {2}{3}{1}{10/10}{How Cooperative Communication Mitigate Shadow Fading}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{10}{How Cooperative Communication Mitigate Shadow Fading}}\headcommand {\beamer@subsectionpages {8}{9}}
+\headcommand {\slideentry {2}{2}{1}{10/10}{How Cooperative Communication Mitigate Shadow Fading}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {2}{3}{2}{11/11}{How Cooperative Communication Mitigate Shadow Fading}{0}}
+\headcommand {\slideentry {2}{2}{2}{11/11}{How Cooperative Communication Mitigate Shadow Fading}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\slideentry {2}{3}{3}{12/12}{How Cooperative Communication Mitigate Shadow Fading}{0}}
+\headcommand {\slideentry {2}{2}{3}{12/12}{How Cooperative Communication Mitigate Shadow Fading}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {2}{3}{4}{13/13}{How Cooperative Communication Mitigate Shadow Fading}{0}}
+\headcommand {\slideentry {2}{2}{4}{13/13}{How Cooperative Communication Mitigate Shadow Fading}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\slideentry {2}{3}{5}{14/14}{How Cooperative Communication Mitigate Shadow Fading}{0}}
+\headcommand {\slideentry {2}{2}{5}{14/14}{How Cooperative Communication Mitigate Shadow Fading}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {2}{3}{6}{15/15}{How Cooperative Communication Mitigate Shadow Fading}{0}}
+\headcommand {\slideentry {2}{2}{6}{15/15}{How Cooperative Communication Mitigate Shadow Fading}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {2}{3}{7}{16/16}{How Cooperative Communication Mitigate Shadow Fading}{0}}
+\headcommand {\slideentry {2}{2}{7}{16/16}{How Cooperative Communication Mitigate Shadow Fading}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\sectionentry {3}{Single-Cell System Performance Analysis under Exponential Correlated Shadow Fading}{17}{Single-Cell System Performance Analysis under Exponential Correlated Shadow Fading}{0}}
+\headcommand {\sectionentry {3}{Single-Cell System Performance Analysis}{17}{Single-Cell System Performance Analysis}{0}}
 \headcommand {\beamer@sectionpages {7}{16}}
 \headcommand {\beamer@subsectionpages {10}{16}}
 \headcommand {\slideentry {3}{0}{1}{17/17}{}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{18}{Why Exponential Correlation Model}}\headcommand {\beamer@subsectionpages {17}{17}}
-\headcommand {\slideentry {3}{1}{1}{18/18}{Why Exponential Correlation Model}{0}}
+\headcommand {\slideentry {3}{0}{2}{18/18}{}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{19}{First-Order Markov Chain Model}}\headcommand {\beamer@subsectionpages {18}{18}}
-\headcommand {\slideentry {3}{2}{1}{19/19}{First-Order Markov Chain Model}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{19}{First-Order Markov Chain Model}}\headcommand {\beamer@subsectionpages {17}{18}}
+\headcommand {\slideentry {3}{1}{1}{19/19}{First-Order Markov Chain Model}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {3}{2}{2}{20/20}{First-Order Markov Chain Model}{0}}
+\headcommand {\slideentry {3}{1}{2}{20/20}{First-Order Markov Chain Model}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {3}{2}{3}{21/21}{First-Order Markov Chain Model}{0}}
+\headcommand {\slideentry {3}{1}{3}{21/21}{First-Order Markov Chain Model}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {3}{2}{4}{22/22}{First-Order Markov Chain Model}{0}}
+\headcommand {\slideentry {3}{1}{4}{22/22}{First-Order Markov Chain Model}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {3}{2}{5}{23/23}{First-Order Markov Chain Model}{0}}
+\headcommand {\slideentry {3}{1}{5}{23/23}{First-Order Markov Chain Model}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{24}{Analysis of Outage Behavior}}\headcommand {\beamer@subsectionpages {19}{23}}
-\headcommand {\slideentry {3}{3}{1}{24/24}{Analysis of Outage Behavior}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{24}{Analysis of Outage Behavior}}\headcommand {\beamer@subsectionpages {19}{23}}
+\headcommand {\slideentry {3}{2}{1}{24/24}{Analysis of Outage Behavior}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {3}{3}{2}{25/25}{Analysis of Outage Behavior}{0}}
+\headcommand {\slideentry {3}{2}{2}{25/25}{Analysis of Outage Behavior}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\sectionentry {4}{Multi-Cell System Performance Analysis under Exponential Correlated Shadow Fading}{26}{Multi-Cell System Performance Analysis under Exponential Correlated Shadow Fading}{0}}
+\headcommand {\sectionentry {4}{Multi-Cell System Performance Analysis}{26}{Multi-Cell System Performance Analysis}{0}}
 \headcommand {\beamer@sectionpages {17}{25}}
 \headcommand {\beamer@subsectionpages {24}{25}}
 \headcommand {\slideentry {4}{0}{1}{26/26}{}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\slideentry {4}{0}{2}{27/27}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{27}{Grid Model vs. Random Model}}\headcommand {\beamer@subsectionpages {26}{26}}
+\headcommand {\slideentry {4}{1}{1}{27/27}{Grid Model vs. Random Model}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {4}{0}{3}{28/28}{}{0}}
+\headcommand {\slideentry {4}{1}{2}{28/28}{Grid Model vs. Random Model}{0}}
 \headcommand {\beamer@framepages {28}{28}}
-\headcommand {\slideentry {4}{0}{4}{29/29}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{29}{Outage Probability and Outage Durations}}\headcommand {\beamer@subsectionpages {27}{28}}
+\headcommand {\slideentry {4}{2}{0}{29/29}{Grid Model vs. Random Model}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {4}{0}{5}{30/30}{}{0}}
+\headcommand {\slideentry {4}{2}{1}{30/30}{Grid Model vs. Random Model}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {4}{0}{6}{31/31}{}{0}}
+\headcommand {\slideentry {4}{2}{2}{31/31}{Grid Model vs. Random Model}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {4}{0}{7}{32/32}{}{0}}
+\headcommand {\slideentry {4}{2}{3}{32/32}{Grid Model vs. Random Model}{0}}
 \headcommand {\beamer@framepages {32}{32}}
 \headcommand {\sectionentry {5}{Transport Layer Protocols for Next Generation Networks}{33}{Transport Layer Protocols for Next Generation Networks}{0}}
 \headcommand {\beamer@sectionpages {26}{32}}
-\headcommand {\beamer@subsectionpages {26}{32}}
+\headcommand {\beamer@subsectionpages {27}{32}}
 \headcommand {\slideentry {5}{0}{1}{33/33}{}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{34}{Motivations}}\headcommand {\beamer@subsectionpages {33}{33}}
-\headcommand {\slideentry {5}{1}{1}{34/34}{Motivations}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{34}{Motivation}}\headcommand {\beamer@subsectionpages {33}{33}}
+\headcommand {\slideentry {5}{1}{1}{34/34}{Motivation}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {5}{1}{2}{35/35}{Motivations}{0}}
+\headcommand {\slideentry {5}{1}{2}{35/35}{Motivation}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\slideentry {5}{1}{3}{36/36}{Motivations}{0}}
+\headcommand {\slideentry {5}{1}{3}{36/36}{Motivation}{0}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\beamer@subsectionentry {0}{5}{2}{37}{Remy and Explicit Congestion Notification (ECN)}}\headcommand {\beamer@subsectionpages {34}{36}}
-\headcommand {\slideentry {5}{2}{1}{37/37}{Remy and Explicit Congestion Notification (ECN)}{0}}
+\headcommand {\slideentry {5}{1}{4}{37/37}{Motivation}{0}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {5}{2}{2}{38/38}{Remy and Explicit Congestion Notification (ECN)}{0}}
+\headcommand {\slideentry {5}{1}{5}{38/38}{Motivation}{0}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\beamer@subsectionentry {0}{5}{3}{39}{Data-Driven End-User Congestion Prediction Algorithm}}\headcommand {\beamer@subsectionpages {37}{38}}
-\headcommand {\slideentry {5}{3}{1}{39/39}{Data-Driven End-User Congestion Prediction Algorithm}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{39}{Data-Driven End-User Congestion Prediction Algorithm}}\headcommand {\beamer@subsectionpages {34}{38}}
+\headcommand {\slideentry {5}{2}{1}{39/39}{Data-Driven End-User Congestion Prediction Algorithm}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {5}{3}{2}{40/40}{Data-Driven End-User Congestion Prediction Algorithm}{0}}
+\headcommand {\slideentry {5}{2}{2}{40/40}{Data-Driven End-User Congestion Prediction Algorithm}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {5}{3}{3}{41/41}{Data-Driven End-User Congestion Prediction Algorithm}{0}}
+\headcommand {\slideentry {5}{2}{3}{41/41}{Data-Driven End-User Congestion Prediction Algorithm}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {5}{3}{4}{42/42}{Data-Driven End-User Congestion Prediction Algorithm}{0}}
+\headcommand {\slideentry {5}{2}{4}{42/42}{Data-Driven End-User Congestion Prediction Algorithm}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\slideentry {5}{3}{5}{43/43}{Data-Driven End-User Congestion Prediction Algorithm}{0}}
+\headcommand {\slideentry {5}{2}{5}{43/43}{Data-Driven End-User Congestion Prediction Algorithm}{0}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\slideentry {5}{3}{6}{44/44}{Data-Driven End-User Congestion Prediction Algorithm}{0}}
+\headcommand {\sectionentry {6}{Conclusions and Future Work}{44}{Conclusions and Future Work}{0}}
+\headcommand {\beamer@sectionpages {33}{43}}
+\headcommand {\beamer@subsectionpages {39}{43}}
+\headcommand {\slideentry {6}{0}{1}{44/44}{}{0}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\slideentry {5}{3}{7}{45/45}{Data-Driven End-User Congestion Prediction Algorithm}{0}}
+\headcommand {\slideentry {6}{0}{2}{45/45}{}{0}}
 \headcommand {\beamer@framepages {45}{45}}
-\headcommand {\slideentry {5}{3}{8}{46/46}{Data-Driven End-User Congestion Prediction Algorithm}{0}}
+\headcommand {\slideentry {6}{0}{3}{46/46}{}{0}}
 \headcommand {\beamer@framepages {46}{46}}
-\headcommand {\beamer@partpages {1}{46}}
-\headcommand {\beamer@subsectionpages {39}{46}}
-\headcommand {\beamer@sectionpages {33}{46}}
-\headcommand {\beamer@documentpages {46}}
-\headcommand {\def \inserttotalframenumber {46}}
+\headcommand {\slideentry {6}{0}{4}{47/47}{}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\slideentry {6}{0}{5}{48/48}{}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\beamer@partpages {1}{48}}
+\headcommand {\beamer@subsectionpages {44}{48}}
+\headcommand {\beamer@sectionpages {44}{48}}
+\headcommand {\beamer@documentpages {48}}
+\headcommand {\def \inserttotalframenumber {48}}
