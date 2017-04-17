@@ -56,16 +56,16 @@
 \headcommand {\beamer@framepages {21}{21}}
 \headcommand {\slideentry {3}{1}{4}{22/22}{First-Order Markov Chain Model}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {3}{1}{5}{23/23}{First-Order Markov Chain Model}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{23}{Analysis of Outage Behavior}}\headcommand {\beamer@subsectionpages {19}{22}}
+\headcommand {\slideentry {3}{2}{1}{23/23}{Analysis of Outage Behavior}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{24}{Analysis of Outage Behavior}}\headcommand {\beamer@subsectionpages {19}{23}}
-\headcommand {\slideentry {3}{2}{1}{24/24}{Analysis of Outage Behavior}{0}}
+\headcommand {\slideentry {3}{2}{2}{24/24}{Analysis of Outage Behavior}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {3}{2}{2}{25/25}{Analysis of Outage Behavior}{0}}
+\headcommand {\slideentry {3}{2}{3}{25/25}{Analysis of Outage Behavior}{0}}
 \headcommand {\beamer@framepages {25}{25}}
 \headcommand {\sectionentry {4}{Multi-Cell System Performance Analysis}{26}{Multi-Cell System Performance Analysis}{0}}
 \headcommand {\beamer@sectionpages {17}{25}}
-\headcommand {\beamer@subsectionpages {24}{25}}
+\headcommand {\beamer@subsectionpages {23}{25}}
 \headcommand {\slideentry {4}{0}{1}{26/26}{}{0}}
 \headcommand {\beamer@framepages {26}{26}}
 \headcommand {\beamer@subsectionentry {0}{4}{1}{27}{Grid Model vs. Random Model}}\headcommand {\beamer@subsectionpages {26}{26}}

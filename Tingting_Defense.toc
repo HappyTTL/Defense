@@ -6,7 +6,7 @@
 \beamer@subsectionintoc {2}{2}{How Cooperative Communication Mitigate Shadow Fading}{10}{0}{2}
 \beamer@sectionintoc {3}{Single-Cell System Performance Analysis}{17}{0}{3}
 \beamer@subsectionintoc {3}{1}{First-Order Markov Chain Model}{19}{0}{3}
-\beamer@subsectionintoc {3}{2}{Analysis of Outage Behavior}{24}{0}{3}
+\beamer@subsectionintoc {3}{2}{Analysis of Outage Behavior}{23}{0}{3}
 \beamer@sectionintoc {4}{Multi-Cell System Performance Analysis}{26}{0}{4}
 \beamer@subsectionintoc {4}{1}{Grid Model vs. Random Model}{27}{0}{4}
 \beamer@subsectionintoc {4}{2}{Outage Probability and Outage Durations}{29}{0}{4}

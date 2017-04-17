@@ -445,13 +445,13 @@ The correlation is only decided by $d$, $\theta$ is ignored.
 \end{block}
 \end{frame}
 \subsection{First-Order Markov Chain Model}
-%\begin{frame}
-%\frametitle{Exponential Correlated Shadowing Field}
-%\begin{figure}
-%\includegraphics[width=12cm]{finalsystemab_V3.eps}
-%\caption{(a) A typical exponential correlated shadow fading field in a $50m\times50m$ area. The color bar denotes the value of the shadow fading in dB. (b) A single cell model with a MS moving on a fixed trajectory. The shadow fading field covered the entire trajectory is generated locally. (c) A locally generated correlated shadowing field for a fixed trajectory from point a to point b.}
-%\end{figure}
-%\end{frame}
+\begin{frame}
+\frametitle{Exponential Correlated Shadowing Field}
+\begin{figure}
+\includegraphics[width=12cm]{finalsystemab_V3.eps}
+\caption{(a) A typical exponential correlated shadow fading field in a $50m\times50m$ area. The color bar denotes the value of the shadow fading in dB. (b) A single cell model with a MS moving on a fixed trajectory. The shadow fading field covered the entire trajectory is generated locally. (c) A locally generated correlated shadowing field for a fixed trajectory from point a to point b.}
+\end{figure}
+\end{frame}
 %
 \begin{frame}
 \frametitle{Exponential Correlation}
@@ -467,36 +467,39 @@ S_{B}=\rho S_{A}+(1-\rho)n_{A}
 where $n_{A}$ denotes the channel noise at $A$.
 \end{frame}
 %
-\begin{frame}
-\frametitle{First-Order Markov Chain Model}
-\begin{lem}
-Shadow fading factors of any two points that can be connected by a trajectory have jointly gaussian distribution.
-\end{lem}
-\begin{proof}Suppose the two points are $a$ and $b$, we can assume there are $n$ positions on this trajectory $(t_{1},t_{2},\dots,t_{n})$. Then we have the following:
-\begin{equation}
-\begin{split}
-S_{b} &=\rho S_{t_{n}}+(1-\rho)e_{t_{n}}\\
-&=\rho(\rho S_{t_{n-1}}+(1-\rho)e_{t_{n-1}})+(1-\rho)e_{t_{n}}=\ldots\ldots\\
-&=\rho^{n}S_{t_{1}}+\sum_{i=1}^{n}\rho^{n-i}(1-\rho)e_{t_{i}}\\
-&=\rho^{n+1}S_{a}+\rho(1-\rho)e_{a}+\sum_{i=1}^{n}\rho^{n-i}(1-\rho)e_{t_{i}}
-\end{split}
-\end{equation}
-\end{proof}
-\end{frame}
-
-\begin{frame}
-\frametitle{Proof Cont'd}
-\begin{proof}
-Let $X=\alpha S_{a}+\beta S_{b}$, the following can be derived:
-\begin{equation}
-X=\alpha S_{a}+\beta(\rho^{n+1}S_{a}+\rho(1-\rho)e_{a}+\sum_{i=1}^{n}\rho^{n-i}(1-\rho)e_{t_{i}})
-\end{equation}
-Since $S_{a}$, $e_{t_{i}}$ and $e_{a}$ are all independent and Gaussian random variables, we conclude that $X$ is also Gaussian, which implies that $S_{a}$ and $S_{b}$ are jointly Gaussian.
-\end{proof}
-\end{frame}
+%\begin{frame}
+%\frametitle{First-Order Markov Chain Model}
+%\begin{lem}
+%Shadow fading factors of any two points that can be connected by a trajectory have jointly gaussian distribution.
+%\end{lem}
+%\begin{proof}Suppose the two points are $a$ and $b$, we can assume there are $n$ positions on this trajectory $(t_{1},t_{2},\dots,t_{n})$. Then we have the following:
+%\begin{equation}
+%\begin{split}
+%S_{b} &=\rho S_{t_{n}}+(1-\rho)e_{t_{n}}\\
+%&=\rho(\rho S_{t_{n-1}}+(1-\rho)e_{t_{n-1}})+(1-\rho)e_{t_{n}}=\ldots\ldots\\
+%&=\rho^{n}S_{t_{1}}+\sum_{i=1}^{n}\rho^{n-i}(1-\rho)e_{t_{i}}\\
+%&=\rho^{n+1}S_{a}+\rho(1-\rho)e_{a}+\sum_{i=1}^{n}\rho^{n-i}(1-\rho)e_{t_{i}}
+%\end{split}
+%\end{equation}
+%\end{proof}
+%\end{frame}
+%
+%\begin{frame}
+%\frametitle{Proof Cont'd}
+%\begin{proof}
+%Let $X=\alpha S_{a}+\beta S_{b}$, the following can be derived:
+%\begin{equation}
+%X=\alpha S_{a}+\beta(\rho^{n+1}S_{a}+\rho(1-\rho)e_{a}+\sum_{i=1}^{n}\rho^{n-i}(1-\rho)e_{t_{i}})
+%\end{equation}
+%Since $S_{a}$, $e_{t_{i}}$ and $e_{a}$ are all independent and Gaussian random variables, we conclude that $X$ is also Gaussian, which implies that $S_{a}$ and $S_{b}$ are jointly Gaussian.
+%\end{proof}
+%\end{frame}
 
 \begin{frame}
 \frametitle{Construct Markov Chain Model}
+\begin{lem}
+Shadow fading factors of any two points that can be connected by a trajectory have jointly gaussian distribution.
+\end{lem}
 \begin{itemize}
 \item Divide the entire shadow fading range $[-\infty,+\infty]$ into finite number of intervals $\{[-\infty,S_{0}],[S_{0},S_{1}],\dots,[S_{N},+\infty]\}$. Each interval represents a state of the Markov chain model.
 \item Derive the state transition matrix of the Markov chain model from the probability distribution of the correlated shadow fading.
@@ -531,70 +534,70 @@ P_{i,j} &= P(S_{A}\in ST_{j}|S_{B}\in ST_{i})\\
 %Outage happens when $G_{SD}^2 < \beta$, where $\beta = \frac{(2^{R}-1)*N_{0}}{P}$ and $R$ is the required data rate. 
 %\end{frame}
 %
-%\begin{frame}
-%\frametitle{Outage Behavior Cont'd}
-%Considering two consecutive points $A$ and $B$, we have $G_{A}=PL_{A}(d_{A})+S_{A}$ and $G_{B}=PL_{B}(d_{B})+S_{B}$. The probability of $A$ and $B$ are both in outage area can be written as:
-%\begin{equation}
-%\begin{split}
-%&P(G_{A}<\gamma, G_{B}<\gamma) \\
-%&= P(S_{A}<\gamma-PL_{A}(d_{A}), S_{B}<\gamma-PL_{B}(d_{B}))
-%\end{split}
-%\end{equation}
-%If $S_{A}<\gamma-PL_{A}(d_{A}) \in ST_{i}$ and $S_{B}<\gamma-PL_{B}(d_{B}) \in ST_{j}$, we can infer that, to avoid outage, the lower bound of shadow fading factor $S_{A}$ is in state $ST_{i}$ and for $S_{B}$ is in state $ST_{j}$. State $ST_{i}$ and $ST_{j}$ are called lower bound state. 
-%\end{frame}
-%
-%\begin{frame}
-%\frametitle{Outage Behavior Cont'd}
-%\begin{equation}
-%P(G_{A}<\gamma, G_{B}<\gamma)=\sum_{m=0}^{i}\sum_{n=0}^{j} P(ST_{m})\bullet P(ST_{m},ST_{n})
-%\end{equation}
-%\begin{equation}
-%\begin{split}
-%&P(G_{1}<\gamma,\dots,G_{L}<\gamma)=\\
-%&\sum_{m_{1}=0}^{M_{1}}\dots\sum_{m_{L}=0}^{M_{L}} P(ST_{m_{1}})\bullet P(ST_{m_{1}},ST_{m_{2}})\\
-%&\bullet\dots\bullet P(ST_{m_{L-1}},ST_{m_{L}})
-%\end{split}
-%\end{equation}
-%where $m_{i}$, $i\in\{1,\dots,L\}$ are corresponding lower bound state of each position on the moving trajectory.
-%\end{frame}
-%
 \begin{frame}
 \frametitle{Outage Behavior}
-\begin{table}
-\centering
-\caption{\label{SystemConfig}Simulation Configuration Parameters}
-
-\begin{tabular}{|c|c|}
-
-\hline
-
-\multirow{2}{*}{Okuruma-Hata Model} & BS Height: $100m$\\
-& MS Height: $1m$\\
-\hline
+Considering two consecutive points $A$ and $B$, we have $G_{A}=PL_{A}(d_{A})+S_{A}$ and $G_{B}=PL_{B}(d_{B})+S_{B}$. The probability of $A$ and $B$ are both in outage area can be written as:
+\begin{equation}
+\begin{split}
+&P(G_{A}<\gamma, G_{B}<\gamma) \\
+&= P(S_{A}<\gamma-PL_{A}(d_{A}), S_{B}<\gamma-PL_{B}(d_{B}))
+\end{split}
+\end{equation}
+If $S_{A}<\gamma-PL_{A}(d_{A}) \in ST_{i}$ and $S_{B}<\gamma-PL_{B}(d_{B}) \in ST_{j}$, we can infer that, to avoid outage, the lower bound of shadow fading factor $S_{A}$ is in state $ST_{i}$ and for $S_{B}$ is in state $ST_{j}$. State $ST_{i}$ and $ST_{j}$ are called lower bound state. 
+\end{frame}
+%
+\begin{frame}
+\frametitle{Outage Behavior Cont'd}
+\begin{equation}
+P(G_{A}<\gamma, G_{B}<\gamma)=\sum_{m=0}^{i}\sum_{n=0}^{j} P(ST_{m})\bullet P(ST_{m},ST_{n})
+\end{equation}
+\begin{equation}
+\begin{split}
+&P(G_{1}<\gamma,\dots,G_{L}<\gamma)=\\
+&\sum_{m_{1}=0}^{M_{1}}\dots\sum_{m_{L}=0}^{M_{L}} P(ST_{m_{1}})\bullet P(ST_{m_{1}},ST_{m_{2}})\\
+&\bullet\dots\bullet P(ST_{m_{L-1}},ST_{m_{L}})
+\end{split}
+\end{equation}
+where $m_{i}$, $i\in\{1,\dots,L\}$ are corresponding lower bound state of each position on the moving trajectory.
+\end{frame}
+%
+%\begin{frame}
+%\frametitle{Outage Behavior}
+%\begin{table}
+%\centering
+%\caption{\label{SystemConfig}Simulation Configuration Parameters}
+%
+%\begin{tabular}{|c|c|}
+%
+%\hline
+%
+%\multirow{2}{*}{Okuruma-Hata Model} & BS Height: $100m$\\
+%& MS Height: $1m$\\
+%\hline
 %Rayleigh Fading & Coherence Time: $100ms$\\
 %\hline
-\multirow{5}{*}{Correlated Shadow Fading}
-& De-Correlation Distance $d_{0}$: $20m$\\
-& Standard Deviation $\sigma_{0}$: $8dB$\\
-\hline
-\multirow{3}{*}{Markov Chain Model} & Number of States:\\
-& 50, 26, 18, 14, 10, 8\\
-& ($3*\sigma_{0}/n*2+2$, $n=1,2,3,4,6,8$)\\
-\hline
-\multirow{2}{*}{MS Trajectory} & Length: $21m$\\
-& Unit Distance $\delta d$: $1m$\\
-\hline
-Shadowing Field & $50\times50m^{2}$\\
-\hline
-Radio Frequency & $f: 1024MHz$\\
-\hline
-BS Transmission Power & $P: 30dbm$\\
-\hline
-SNR Requirement & $10dB$\\
-\hline
-\end{tabular}
-\end{table}
-\end{frame}
+%\multirow{5}{*}{Correlated Shadow Fading}
+%& De-Correlation Distance $d_{0}$: $20m$\\
+%& Standard Deviation $\sigma_{0}$: $8dB$\\
+%\hline
+%\multirow{3}{*}{Markov Chain Model} & Number of States:\\
+%& 50, 26, 18, 14, 10, 8\\
+%& ($3*\sigma_{0}/n*2+2$, $n=1,2,3,4,6,8$)\\
+%\hline
+%\multirow{2}{*}{MS Trajectory} & Length: $21m$\\
+%& Unit Distance $\delta d$: $1m$\\
+%\hline
+%Shadowing Field & $50\times50m^{2}$\\
+%\hline
+%Radio Frequency & $f: 1024MHz$\\
+%\hline
+%BS Transmission Power & $P: 30dbm$\\
+%\hline
+%SNR Requirement & $10dB$\\
+%\hline
+%\end{tabular}
+%\end{table}
+%\end{frame}
 %
 \begin{frame}
 \begin{figure}
